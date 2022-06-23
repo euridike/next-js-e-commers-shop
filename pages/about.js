@@ -7,11 +7,12 @@ export default function About() {
     <div>
       <Head>
         <title>About page</title>
-        <meta name="description" content="About the app" />
+        <meta name="description" content="About the goat" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>About the app</h1>
+        <h1>About the goat</h1>
+        <p>Philosophy of our online shop</p>
       </main>
     </div>
   );

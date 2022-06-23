@@ -24,12 +24,12 @@ export default function Layout(props) {
   return (
     <div>
       <header css={headerStyles}>
-        <Link href="/">🐵</Link>
-        <Link href="/team">Team</Link>
-        <Link href="/about">About</Link>
+        <Link href="/">🐐</Link>
         <div>
-          <Link href="/animals">Animals</Link>
+          <Link href="/products">Products</Link>
         </div>
+
+        <Link href="/about">About</Link>
       </header>
 
       {

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '../components/Layout';
-import macaca from '../public/macaca.jpeg';
+import yoga_home from '../public/yoga_home.jpg';
 
 export default function Home() {
   return (
@@ -13,9 +13,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Shop</h1>
+        <h1>Goat Yoga Shop</h1>
 
-        <Image src={macaca} alt="Sassy macaca" />
+        <Image src={yoga_home} alt="Yoga" />
+        <p>Welcome to our goatly great yoga shop</p>
       </main>
     </div>
   );
